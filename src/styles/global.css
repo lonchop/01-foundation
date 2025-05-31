@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+}
+
+@theme {
+  /* Definición de colores personalizados para Tailwind v4 */
+  --color-purple: #4c1d95;
+}
